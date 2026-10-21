@@ -1,4 +1,4 @@
-**This code was run in Google CoLab.**
+**This code was run in Google CoLab using the PyTorch library.**
 
 # What is this project for?
 
@@ -6,7 +6,7 @@ The FER2013 Facial Recognition project was designed for caretakers/paraprofessio
 
 Specifically, the goal of this project is to answer an overarching question along with three other questions: How can we use a model trained from scratch to help neurodivergent people express their emotions using facial recognition technology? Can deep-learning be used as a solution? Will neurodivergent people have a better chance at expressing their emotions? Can those emotions be handled better? 
 
-Ultimately, there is a slight possibility for this model to be deployed in the real world; the accuracy is not excellently high at 68.18%, but the goal was 60-70% originally. The model fares decently well with other pretrained models, with EfficientNet scoring the highest test accuracy. Realistically, the model can confuse certain emotions with each other, such as the pairs of anger and disgust or fear and surprise. The lack of depth in the training will not necessarily prepare the model for handling more complex emotions, as it was trained and tested with only 7 classes. 
+Ultimately, there is a great potential with further improvement for this model to be deployed in the real world; the accuracy is not excellently high at 68.18%, but the goal was 60-70% originally. The model fares decently well with other pretrained models, with EfficientNet scoring the highest test accuracy. Realistically, the model can confuse certain emotions with each other, such as the pairs of anger and disgust or fear and surprise. The lack of depth in the training will not necessarily prepare the model for handling more complex emotions, as it was trained and tested with only 7 classes. 
 
 However, in the current stage of AI and machine learning, it is crucial to note that this technology can be potentially dangerous in the case of mass surveillance. Those high in power who gain access to advanced facial recognition have the ability to put civilians’ privacy and security at risk; therefore, the use of this potential model needs to be limited and regulated.
 
