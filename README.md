@@ -1,5 +1,21 @@
 **This code was run in Google CoLab using the PyTorch library.**
 
+Custom model parameters:
+BATCH_SIZE = 64
+EPOCHS = 100
+LEARNING_RATE = 0.001
+Adam optimizer
+
+Pretrained models parameters:
+BATCH_SIZE = 64
+EPOCHS = 30
+LEARNING_RATE = 1e-4
+PATIENCE = 7 
+
+1. Implement early stopping: at any point of training a model, if the model has been training for 7 epochs and hasn’t improved from the highest performing model recorded, stop training.
+
+2. Only save the best performing model (against our validation set) to be evaluated. A model could have been trained for 30 epochs, but if its best performing weights were saved at epoch 25, those are the weights loaded in and evaluated in the third script.
+
 # What is this project for?
 
 The FER2013 Facial Recognition project was designed for caretakers/paraprofessionals of neurodivergent kids. Neurodivergent is a broad term referring to individuals with mental disorders, special needs, and other developmental or behavioral conditions. Specifically, this project was created to address alexithymia, or “emotional blindness,” in those particular individuals, as they cannot properly express or communicate their emotions. In this case, caretakers can use the technology present in this project to help those individuals express those emotions.
