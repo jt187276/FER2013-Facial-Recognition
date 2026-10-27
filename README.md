@@ -2,14 +2,20 @@
 
 Custom model parameters:
 BATCH_SIZE = 64
+
 EPOCHS = 100
+
 LEARNING_RATE = 0.001
+
 Adam optimizer
 
 Pretrained models parameters:
 BATCH_SIZE = 64
+
 EPOCHS = 30
+
 LEARNING_RATE = 1e-4
+
 PATIENCE = 7 
 
 1. Implement early stopping: at any point of training a model, if the model has been training for 7 epochs and hasn’t improved from the highest performing model recorded, stop training.
